@@ -126,4 +126,4 @@ HotelBookingRepositoryClean refactored, including Unit Tests, Functional Test us
 
 ## License
 
-[MIT © Rafael García, Aleksandr Daškevič, Miguel Ángel.](../LICENSE)
+[MIT © Rafael García, Aleksandr Daškevič, Miguel Ángel.](./LICENSE)
