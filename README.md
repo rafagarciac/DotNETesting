@@ -99,22 +99,16 @@ where
 - Loop coverage
 ### Decision Table
 ***
-**Create Booking:**
-| ***Conditions***        | 1<sup>st</sup> Case           | 2<sup>nd</sup> Case  | 3<sup>rd</sup> Case | 4<sup>th</sup> - 5<sup>th</sup> Case | 6<sup>th</sup> - 8<sup>th</sup> Case | 10<sup>th</sup> - 11<sup>th</sup> Case | 12<sup>th</sup> Case 
-| ------------- |:-------------:| -----:| -----:| -----:| -----:| -----:| -----:|
-| ***SD is in***      | B | A | B | B | O | O | P 
-| ***ED is in***      | B | A | A | O | O | A | -
-| ***Actions*** 
-| ***Book Room***     | <span class="correct">Y</span> | <span class="correct">Y</span> | <span class="error">N</span> | <span class="error">N</span> | <span class="error">N</span> | <span class="error">N</span> | <span class="error">N</span>
+| ***Conditions***        | 1<sup>st</sup> Case           | 2<sup>nd</sup> Case  | 3<sup>rd</sup> Case | 4<sup>th</sup> - 5<sup>th</sup> Case | 6<sup>th</sup> - 8<sup>th</sup> Case | 10<sup>th</sup> - 11<sup>th</sup> Case | 12<sup>th</sup> Case |
+| ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-----:|
+| ***SD is in***      | B | A | B | B | O | O | P |
+| ***ED is in***      | B | A | A | O | O | A | - |
+| ***Actions***       |   |   |   |   |   |   |   |
+| ***Book Room***     | Y | Y | N | N | N | N | N |
 
 ***Legend*** <br>
 SD = StartDate <br> 
 SE = StartDate    
-<!--Styles for the Table Results T & F = Y & N -->
-<style>
-    .correct {color: green;}
-    .error {color: red;}
-</style>
 
 ### Modified Condition / Decision Coverage (MCDC)
 ### Code Coverage Results
