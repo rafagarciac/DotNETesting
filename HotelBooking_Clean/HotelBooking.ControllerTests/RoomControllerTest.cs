@@ -12,13 +12,13 @@ using Xunit;
 
 namespace HotelBooking.UnitTests
 {
-    public class RoomControllerTests
+    public class RoomControllerTest
     {
         private RoomsController controller;
         private Mock<IRepository<Room>> fakeRoomRepository;
 
         // Constructor
-        public RoomControllerTests()
+        public RoomControllerTest()
         {
             var rooms = new List<Room>
             {

@@ -11,7 +11,7 @@ using Xunit;
 
 namespace HotelBooking.UnitTests
 {
-    public class BookingsControllerTests
+    public class BookingsControllerTest
     {
 
         // Declarations
@@ -30,7 +30,7 @@ namespace HotelBooking.UnitTests
 
 
         // Constructor
-        public BookingsControllerTests()
+        public BookingsControllerTest()
         {
             // Dates
             startDate = DateTime.Today.AddDays(1).AddMonths(2);

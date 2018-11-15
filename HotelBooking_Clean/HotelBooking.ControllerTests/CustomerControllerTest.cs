@@ -12,7 +12,7 @@ using Xunit;
 
 namespace HotelBooking.UnitTests
 {
-    public class CustomerControllerTests
+    public class CustomerControllerTest
     {
         // Controller declaration
         private CustomersController controller;
@@ -25,7 +25,7 @@ namespace HotelBooking.UnitTests
         private DateTime dtE = DateTime.Today.AddDays(8).AddMonths(2);
 
         // Constructor
-        public CustomerControllerTests()
+        public CustomerControllerTest()
         {
             List<Booking> bookings = new List<Booking>
             {

@@ -6,11 +6,11 @@ using Xunit;
 
 namespace HotelBooking.IntegrationTests
 {
-    public class BookingManagerTests : IDisposable
+    public class BookingManagerTest : IDisposable
     {
         SqliteConnection connection;
 
-        public BookingManagerTests(){
+        public BookingManagerTest(){
             connection = new SqliteConnection("DataSource=:memory:");
 
             // In-memory database only exists while the connection is open

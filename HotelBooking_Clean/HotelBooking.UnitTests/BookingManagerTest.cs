@@ -7,7 +7,7 @@ using Xunit;
 
 namespace HotelBooking.UnitTests
 {
-    public class BookingManagerTests
+    public class BookingManagerTest
     {
         // Declarations
 
@@ -17,7 +17,7 @@ namespace HotelBooking.UnitTests
         private BookingManager bm;
 
         // Constructor by Default
-        public BookingManagerTests()
+        public BookingManagerTest()
         {
             time = new DateManager();
             fbr = new FakeBookingRepository(time.DtStartParameter, time.DtEndParameter);
