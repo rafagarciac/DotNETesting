@@ -164,4 +164,4 @@ SE = StartDate
 
 ## License
 
-[MIT © Rafael García, Aleksandr Daškevič, Miguel Ángel.](../LICENSE)
+[MIT © Rafael García, Aleksandr Daškevič, Miguel Ángel.](./LICENSE)
