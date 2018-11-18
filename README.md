@@ -92,11 +92,19 @@ where
 **P** = the number of connected components.
 
 ### DD-path Graph
-#### DO THIS FOR EACH METHOD TEST:
 - Program graphs 
 - Node coverage
 - Edge coverage
 - Loop coverage
+
+### CreateBooking Graph
+***
+![](Graphs/CreateBookingDiagramGraph.png)
+
+### FindAvailable Graph
+***
+![](Graphs/FindAvailableRoomDiagramGraph.png)
+
 ### Decision Table
 ***
 | ***Conditions***        | 1<sup>st</sup> Case           | 2<sup>nd</sup> Case  | 3<sup>rd</sup> Case | 4<sup>th</sup> - 5<sup>th</sup> Case | 6<sup>th</sup> - 8<sup>th</sup> Case | 10<sup>th</sup> - 11<sup>th</sup> Case | 12<sup>th</sup> Case |
