@@ -76,7 +76,7 @@ HotelBookingRepositoryClean refactored, including Unit Tests, Functional Test us
     └──────────────── END ─────────────────>
 ```
 
-## Report **TODO**
+## Report
 ---
 ### TDD & Cyclomatic complexity
 Cyclomatic complexity is a software metric, used to indicate the complexity of a program. It is a quantitative measure of the number of linearly independent paths through a program's source code. It was developed by [Thomas J. McCabe](http://www.literateprogramming.com/mccabe.pdf), Sr. in 1976.
@@ -107,6 +107,7 @@ where
 
 ### Decision Table
 ***
+#### Create Booking 
 | ***Conditions***        | 1<sup>st</sup> Case           | 2<sup>nd</sup> Case  | 3<sup>rd</sup> Case | 4<sup>th</sup> - 5<sup>th</sup> Case | 6<sup>th</sup> - 8<sup>th</sup> Case | 10<sup>th</sup> - 11<sup>th</sup> Case | 12<sup>th</sup> Case |
 | ------------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-----:|
 | ***SD is in***      | B | A | B | B | O | O | P |
@@ -118,9 +119,11 @@ where
 SD = StartDate <br> 
 SE = StartDate    
 
-### Modified Condition / Decision Coverage (MCDC)
-### Code Coverage Results
-### Unit, Functional & Integration Testing Explanation
+#### Find Available
+
+### Modified Condition / Decision Coverage (MCDC) **TODO**
+### Code Coverage Results **TODO**
+### Unit, Functional & Integration Testing Explanation **TODO**
 - DateManager Class
 
 ## Technologies Used
