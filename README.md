@@ -115,13 +115,14 @@ where
 | ***Book Room***     | Y | Y | N | N | N | N | N |
 | ***Available Room***| Y | Y | N | N | N | N | N |
 
-***Legend*** <br>
-SD  = StartDate <br> 
-SE  = StartDate <br>
-B   = Before <br>
-A   = After <br>
-O   = Occupied <br>
-P   = Past
+|***Legend***|      |
+|:-------------: |:-------------:|
+|**SD** | StartDate | 
+|**SE** | StartDate |
+|**B**  | Before    |
+|**A**  | After     |
+|**O**  | Occupied  |
+|**P**  | Past      |
 
 ### Code Coverage Results **TODO**
 ### Unit, Functional & Integration Testing Explanation **TODO**
