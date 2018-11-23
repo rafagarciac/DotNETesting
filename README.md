@@ -78,6 +78,24 @@ HotelBookingRepositoryClean refactored, including Unit Tests, Functional Test us
 
 ## Report
 ---
+
+Our architecture design consists of several modules dedicated to each part of the project, this is a list of everything with a short description:
+
+***HotelBooking.BusinessLogic***<br>
+This is the module in charge of the logical part of the project where the classes *"BookingManager.cs"* and *"IBookingManager.cs"* and the methods *"CreateBooking"* and *"FindAvailableRoom"*.<br><br>
+***HotelBooking.Data***<br>
+We have another module dedicated to the data that will be treated, previously obtained from a database.<br><br>
+***HotelBooking.Models***<br>
+The module *"HotelBooking.Models"* is responsible for formatting all the objects that will be developed in the project. We will make a special mention to the class *"DateManager"* of this module, since from this class we assign to all the dates of the tests some dynamic values; this way we make sure that the tests are never obsolete. This technique consists of taking the current date and adding 2 months and 1 day, and 2 months and 8 days, to the start and end dates of the reservations; as if it were fixed parameters.<br><br>
+***HotelBooking.IntegrationTests***<br>
+ The *"HotelBooking.IntegrationTests"* module ensures that the connection to the database is made correctly.<br><br>
+***HotelBooking.UnitTests / HotelBooking.ControllerTests***<br>
+The *"HotelBooking.UnitTests"* and *"HotelBooking.ControllerTests"* modules ensure that all methods of the *"BookingManager", "BookingController", "CustomerController", "RoomController"* classes are correctly performed.<br><br>
+***HotelBooking.Specs***<br>
+*"HotelBooking.Specs"* is the module responsible for the functional test of the application. In this part of the project we test that everything is related correctly, interpreters of code are used as Specflow (tool based on Gherkin).<br><br>
+***HotelBookingStartupProject***<br>
+This is the (actual) last module wich consist the Main Web Project with the all statics fields ```(.css,.html,.js...)```<br>
+
 ### TDD & Cyclomatic complexity
 Cyclomatic complexity is a software metric, used to indicate the complexity of a program. It is a quantitative measure of the number of linearly independent paths through a program's source code. It was developed by [Thomas J. McCabe](http://www.literateprogramming.com/mccabe.pdf), Sr. in 1976.
 
@@ -125,8 +143,6 @@ where
 |**P**  | Past      |
 
 ### Code Coverage Results **TODO**
-### Unit, Functional & Integration Testing Explanation **TODO**
-- DateManager Class
 
 ## Technologies Used
 ---
