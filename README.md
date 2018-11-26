@@ -151,8 +151,6 @@ where
 |**O**  | Occupied  |
 |**P**  | Past      |
 
-### Code Coverage Results **TODO**
-
 ## Technologies Used
 - [NUnit](https://github.com/nunit/nunit) - Unit Testing
 - [NUnit3TestAdapter]() - In order, to show up the SpecFlow Test in the Test Explorer in VS2017. <br> 
