@@ -1,3 +1,5 @@
+[![codecov](https://codecov.io/gh/rafagarciac/DotNETesting/branch/master/graph/badge.svg)](https://codecov.io/gh/rafagarciac/DotNETesting)
+
 # .NETesting
 HotelBookingRepositoryClean refactored, including Unit Tests, Functional Test using SpecFlow &amp; Gherkin. In addition: Architectural Design it was improved.
 
